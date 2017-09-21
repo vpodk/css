@@ -1,0 +1,48 @@
+.stage {
+  height: 120px;
+  margin: 10em auto 0;
+  text-align: center;
+  width: 120px;
+}
+
+.arrow-up,
+.arrow-down,
+.arrow-right,
+.arrow-left {
+  border: 0;
+  height: 0;
+  width: 0;
+}
+
+.arrow-up {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid Gold;
+}
+
+.arrow-down {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid Crimson;
+}
+
+.arrow-right {
+  border-bottom: 50px solid transparent;
+  border-left: 50px solid ForestGreen;
+  border-top: 50px solid transparent;
+}
+
+.arrow-left {
+  border-bottom: 50px solid transparent;
+  border-right: 50px solid RoyalBlue;
+  border-top: 50px solid transparent;
+}
+
+
+.arrow-up {
+  margin: -50px 0 0 5px;
+}
+
+.arrow-down {
+  margin: 0 0 -50px 5px;
+}
